@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="../style.css">
     <link type="text/css" href="../Styles/sign.css" rel="stylesheet">
 </head>
+
 <body>
 
     <header class="topbar">
@@ -35,8 +37,18 @@
                 </tbody>
             </table>
         </section>
+        <div style="text-align:center;">
+            <button onclick="volverMenu()" class="ps-button">
+                Volver al menú
+            </button>
+        </div>
     </main>
-
+    <script>
+        function volverMenu() {
+            window.location.href = "menuView.html";
+        }
+    </script>
     <script src="horario.js"></script>
 </body>
+
 </html>
