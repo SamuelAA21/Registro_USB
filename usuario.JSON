@@ -1,13 +1,5 @@
 [
   {
-    "usuario": "SAMUEL_HERRERA",
-    "contrasena": "SAMUEL_HERRERA",
-    "materias": 3,
-    "matriculado": true,
-    "creditos": 15,
-    "semestre": 6
-  },
-  {
     "usuario": "MARIA_GOMEZ",
     "contrasena": "MARIA123",
     "materias": 4,
