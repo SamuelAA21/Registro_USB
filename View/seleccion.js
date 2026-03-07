@@ -2,40 +2,58 @@ const tablaAsignaturas = document.getElementById("tablaAsignaturas");
 const totalCreditos = document.getElementById("totalCreditos");
 const btnContinuar = document.getElementById("btnContinuar");
 
-let asignaturasDisponibles = [];
 let asignaturasSeleccionadas = [];
 
-fetch("../asignaturas.json")
+const usuarioActivo = JSON.parse(localStorage.getItem("usuarioActivo"));
+
+if (!usuarioActivo) {
+    alert("No hay un usuario activo en sesión");
+    window.location.href = "loginView.html";
+}
+
+fetch("../asignaturas.JSON")
     .then(respuesta => respuesta.json())
-    .then(data => {
-        asignaturasDisponibles = data;
-        renderizarAsignaturas();
+    .then(asignaturas => {
+        const asignaturasFiltradas = asignaturas.filter(asignatura => {
+            return asignatura.semestre === usuarioActivo.semestre;
+        });
+
+        renderizarAsignaturas(asignaturasFiltradas);
     })
     .catch(() => {
         tablaAsignaturas.innerHTML = `
             <tr>
-                <td colspan="7">No se pudieron cargar las asignaturas.</td>
+                <td colspan="8">Error al cargar las asignaturas</td>
             </tr>
         `;
     });
 
-function renderizarAsignaturas() {
+function renderizarAsignaturas(asignaturas) {
     tablaAsignaturas.innerHTML = "";
 
-    asignaturasDisponibles.forEach(asignatura => {
+    if (asignaturas.length === 0) {
+        tablaAsignaturas.innerHTML = `
+            <tr>
+                <td colspan="8">No hay asignaturas para el semestre del estudiante</td>
+            </tr>
+        `;
+        return;
+    }
+
+    asignaturas.forEach(asignatura => {
         const fila = document.createElement("tr");
-        const bloqueada = asignatura.estado !== "Disponible";
+
         fila.innerHTML = `
             <td>
                 <input 
-                    type="checkbox" 
-                    value="${asignatura.id}" 
-                    ${bloqueada ? "disabled" : ""}
+                    type="checkbox"
+                    value="${asignatura.id}"
                     onchange="seleccionarAsignatura(${asignatura.id}, this.checked)"
                 >
             </td>
             <td>${asignatura.nombre}</td>
             <td>${asignatura.profesor}</td>
+            <td>${asignatura.dia}</td>
             <td>${asignatura.inicio}</td>
             <td>${asignatura.fin}</td>
             <td>${asignatura.estado}</td>
@@ -44,10 +62,12 @@ function renderizarAsignaturas() {
 
         tablaAsignaturas.appendChild(fila);
     });
+
+    window.asignaturasMostradas = asignaturas;
 }
 
 function seleccionarAsignatura(id, checked) {
-    const asignatura = asignaturasDisponibles.find(a => a.id === id);
+    const asignatura = window.asignaturasMostradas.find(a => a.id === id);
 
     if (!asignatura) {
         return;
@@ -59,22 +79,22 @@ function seleccionarAsignatura(id, checked) {
         asignaturasSeleccionadas = asignaturasSeleccionadas.filter(a => a.id !== id);
     }
 
-    actualizarResumen();
+    actualizarTotal();
 }
 
-function actualizarResumen() {
-    let suma = 0;
+function actualizarTotal() {
+    let total = 0;
 
     asignaturasSeleccionadas.forEach(asignatura => {
-        suma += asignatura.creditos;
+        total += asignatura.creditos;
     });
 
-    totalCreditos.textContent = suma;
+    totalCreditos.textContent = total;
 }
 
 btnContinuar.addEventListener("click", function () {
     if (asignaturasSeleccionadas.length === 0) {
-        alert("Debe seleccionar al menos una asignatura.");
+        alert("Seleccione al menos una asignatura");
         return;
     }
 

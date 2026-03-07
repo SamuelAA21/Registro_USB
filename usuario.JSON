@@ -1,26 +1,98 @@
 [
   {
-    "usuario": "Samuel_Herrera",
-    "contrasena": "Samuel_Herrera",
+    "usuario": "SAMUEL_HERRERA",
+    "contrasena": "SAMUEL_HERRERA",
     "materias": 3,
     "matriculado": true,
     "creditos": 230,
     "semestre": 6
   },
   {
-    "usuario": "Santiago_Arenas",
-    "contrasena": "1234",
-    "materias": 5,
+    "usuario": "MARIA_GOMEZ",
+    "contrasena": "MARIA123",
+    "materias": 4,
     "matriculado": false,
     "creditos": 180,
+    "semestre": 3
+  },
+  {
+    "usuario": "JUAN_PEREZ",
+    "contrasena": "JUAN123",
+    "materias": 5,
+    "matriculado": true,
+    "creditos": 210,
+    "semestre": 1
+  },
+  {
+    "usuario": "LAURA_MARTINEZ",
+    "contrasena": "LAURA123",
+    "materias": 4,
+    "matriculado": true,
+    "creditos": 195,
+    "semestre": 2
+  },
+  {
+    "usuario": "ANDRES_CASTRO",
+    "contrasena": "ANDRES123",
+    "materias": 6,
+    "matriculado": false,
+    "creditos": 240,
+    "semestre": 4
+  },
+  {
+    "usuario": "SOFIA_RAMIREZ",
+    "contrasena": "SOFIA123",
+    "materias": 5,
+    "matriculado": true,
+    "creditos": 220,
+    "semestre": 5
+  },
+  {
+    "usuario": "DANIEL_TORRES",
+    "contrasena": "DANIEL123",
+    "materias": 4,
+    "matriculado": false,
+    "creditos": 175,
+    "semestre": 7
+  },
+  {
+    "usuario": "VALENTINA_ROJAS",
+    "contrasena": "VALEN123",
+    "materias": 5,
+    "matriculado": true,
+    "creditos": 260,
+    "semestre": 8
+  },
+  {
+    "usuario": "CAMILO_VARGAS",
+    "contrasena": "CAMILO123",
+    "materias": 3,
+    "matriculado": false,
+    "creditos": 160,
+    "semestre": 2
+  },
+  {
+    "usuario": "ISABEL_CRUZ",
+    "contrasena": "ISABEL123",
+    "materias": 6,
+    "matriculado": true,
+    "creditos": 245,
     "semestre": 6
   },
   {
-    "usuario": "Maria_Gomez",
-    "contrasena": "maria2026",
+    "usuario": "NICOLAS_MEJIA",
+    "contrasena": "NICO123",
     "materias": 4,
     "matriculado": true,
-    "creditos": 210,
-    "semestre": 6
+    "creditos": 200,
+    "semestre": 1
+  },
+  {
+    "usuario": "PAULA_ARIAS",
+    "contrasena": "PAULA123",
+    "materias": 5,
+    "matriculado": false,
+    "creditos": 215,
+    "semestre": 4
   }
 ]

@@ -1,44 +1,449 @@
 [
   {
     "id": 1,
-    "nombre": "Programación I",
+    "nombre": "Introducción a la Programación",
     "profesor": "Carlos Ramírez",
+    "dia": "Lunes",
     "inicio": "07:00 AM",
     "fin": "09:00 AM",
     "estado": "Disponible",
     "creditos": 3,
-    "semestre": 6
-    
+    "semestre": 1
   },
   {
     "id": 2,
-    "nombre": "Matemáticas Discretas",
+    "nombre": "Cálculo Diferencial",
     "profesor": "Laura Gómez",
+    "dia": "Martes",
+    "inicio": "08:00 AM",
+    "fin": "10:00 AM",
+    "estado": "Disponible",
+    "creditos": 4,
+    "semestre": 1
+  },
+  {
+    "id": 3,
+    "nombre": "Competencias Comunicativas",
+    "profesor": "Sandra Torres",
+    "dia": "Miércoles",
+    "inicio": "10:00 AM",
+    "fin": "12:00 PM",
+    "estado": "Disponible",
+    "creditos": 2,
+    "semestre": 1
+  },
+  {
+    "id": 4,
+    "nombre": "Lógica Matemática",
+    "profesor": "Jorge Peña",
+    "dia": "Jueves",
+    "inicio": "01:00 PM",
+    "fin": "03:00 PM",
+    "estado": "Disponible",
+    "creditos": 3,
+    "semestre": 1
+  },
+  {
+    "id": 5,
+    "nombre": "Inglés I",
+    "profesor": "Diana Castro",
+    "dia": "Viernes",
     "inicio": "09:00 AM",
     "fin": "11:00 AM",
+    "estado": "Disponible",
+    "creditos": 2,
+    "semestre": 1
+  },
+
+  {
+    "id": 6,
+    "nombre": "Programación Orientada a Objetos",
+    "profesor": "Andrés Pérez",
+    "dia": "Lunes",
+    "inicio": "09:00 AM",
+    "fin": "11:00 AM",
+    "estado": "Disponible",
+    "creditos": 3,
+    "semestre": 2
+  },
+  {
+    "id": 7,
+    "nombre": "Cálculo Integral",
+    "profesor": "Camila Rojas",
+    "dia": "Martes",
+    "inicio": "07:00 AM",
+    "fin": "09:00 AM",
+    "estado": "Disponible",
+    "creditos": 4,
+    "semestre": 2
+  },
+  {
+    "id": 8,
+    "nombre": "Álgebra Lineal",
+    "profesor": "Felipe Gómez",
+    "dia": "Miércoles",
+    "inicio": "08:00 AM",
+    "fin": "10:00 AM",
+    "estado": "Disponible",
+    "creditos": 3,
+    "semestre": 2
+  },
+  {
+    "id": 9,
+    "nombre": "Expresión Gráfica",
+    "profesor": "Natalia Sánchez",
+    "dia": "Jueves",
+    "inicio": "10:00 AM",
+    "fin": "12:00 PM",
+    "estado": "Disponible",
+    "creditos": 2,
+    "semestre": 2
+  },
+  {
+    "id": 10,
+    "nombre": "Inglés II",
+    "profesor": "Mónica Díaz",
+    "dia": "Viernes",
+    "inicio": "01:00 PM",
+    "fin": "03:00 PM",
+    "estado": "Disponible",
+    "creditos": 2,
+    "semestre": 2
+  },
+
+  {
+    "id": 11,
+    "nombre": "Estructuras de Datos",
+    "profesor": "Ricardo Salazar",
+    "dia": "Lunes",
+    "inicio": "07:00 AM",
+    "fin": "09:00 AM",
+    "estado": "Disponible",
+    "creditos": 4,
+    "semestre": 3
+  },
+  {
+    "id": 12,
+    "nombre": "Matemáticas Discretas",
+    "profesor": "Patricia León",
+    "dia": "Martes",
+    "inicio": "09:00 AM",
+    "fin": "11:00 AM",
+    "estado": "Disponible",
+    "creditos": 3,
+    "semestre": 3
+  },
+  {
+    "id": 13,
+    "nombre": "Arquitectura de Computadores",
+    "profesor": "Mauricio Rojas",
+    "dia": "Miércoles",
+    "inicio": "01:00 PM",
+    "fin": "03:00 PM",
+    "estado": "Disponible",
+    "creditos": 3,
+    "semestre": 3
+  },
+  {
+    "id": 14,
+    "nombre": "Estadística",
+    "profesor": "Claudia Mejía",
+    "dia": "Jueves",
+    "inicio": "07:00 AM",
+    "fin": "09:00 AM",
+    "estado": "Disponible",
+    "creditos": 3,
+    "semestre": 3
+  },
+  {
+    "id": 15,
+    "nombre": "Inglés III",
+    "profesor": "Andrea Ruiz",
+    "dia": "Viernes",
+    "inicio": "11:00 AM",
+    "fin": "01:00 PM",
+    "estado": "Disponible",
+    "creditos": 2,
+    "semestre": 3
+  },
+
+  {
+    "id": 16,
+    "nombre": "Bases de Datos I",
+    "profesor": "Daniel Herrera",
+    "dia": "Lunes",
+    "inicio": "10:00 AM",
+    "fin": "12:00 PM",
+    "estado": "Disponible",
+    "creditos": 3,
+    "semestre": 4
+  },
+  {
+    "id": 17,
+    "nombre": "Análisis de Algoritmos",
+    "profesor": "Juliana Castro",
+    "dia": "Martes",
+    "inicio": "01:00 PM",
+    "fin": "03:00 PM",
+    "estado": "Disponible",
+    "creditos": 4,
+    "semestre": 4
+  },
+  {
+    "id": 18,
+    "nombre": "Sistemas Operativos",
+    "profesor": "Héctor Molina",
+    "dia": "Miércoles",
+    "inicio": "08:00 AM",
+    "fin": "10:00 AM",
+    "estado": "Disponible",
+    "creditos": 4,
+    "semestre": 4
+  },
+  {
+    "id": 19,
+    "nombre": "Electrónica Básica",
+    "profesor": "Luis Torres",
+    "dia": "Jueves",
+    "inicio": "03:00 PM",
+    "fin": "05:00 PM",
+    "estado": "Disponible",
+    "creditos": 2,
+    "semestre": 4
+  },
+  {
+    "id": 20,
+    "nombre": "Metodología de la Investigación",
+    "profesor": "Paola Bernal",
+    "dia": "Viernes",
+    "inicio": "07:00 AM",
+    "fin": "09:00 AM",
+    "estado": "Disponible",
+    "creditos": 2,
+    "semestre": 4
+  },
+
+  {
+    "id": 21,
+    "nombre": "Bases de Datos II",
+    "profesor": "Laura Mejía",
+    "dia": "Lunes",
+    "inicio": "01:00 PM",
+    "fin": "03:00 PM",
+    "estado": "Disponible",
+    "creditos": 3,
+    "semestre": 5
+  },
+  {
+    "id": 22,
+    "nombre": "Redes de Computadores",
+    "profesor": "Fernando Ruiz",
+    "dia": "Martes",
+    "inicio": "10:00 AM",
+    "fin": "12:00 PM",
+    "estado": "Disponible",
+    "creditos": 4,
+    "semestre": 5
+  },
+  {
+    "id": 23,
+    "nombre": "Ingeniería de Software I",
+    "profesor": "Sara González",
+    "dia": "Miércoles",
+    "inicio": "07:00 AM",
+    "fin": "09:00 AM",
+    "estado": "Disponible",
+    "creditos": 4,
+    "semestre": 5
+  },
+  {
+    "id": 24,
+    "nombre": "Programación Web",
+    "profesor": "Cristian Vargas",
+    "dia": "Jueves",
+    "inicio": "09:00 AM",
+    "fin": "11:00 AM",
+    "estado": "Disponible",
+    "creditos": 3,
+    "semestre": 5
+  },
+  {
+    "id": 25,
+    "nombre": "Ética Profesional",
+    "profesor": "Marta López",
+    "dia": "Viernes",
+    "inicio": "01:00 PM",
+    "fin": "03:00 PM",
+    "estado": "Disponible",
+    "creditos": 2,
+    "semestre": 5
+  },
+
+  {
+    "id": 26,
+    "nombre": "Ingeniería de Software II",
+    "profesor": "Carlos Ramírez",
+    "dia": "Lunes",
+    "inicio": "07:00 AM",
+    "fin": "09:00 AM",
     "estado": "Disponible",
     "creditos": 4,
     "semestre": 6
   },
   {
-    "id": 3,
-    "nombre": "Bases de Datos",
-    "profesor": "Andrés Pérez",
-    "inicio": "01:00 PM",
-    "fin": "03:00 PM",
-    "estado": "Cerrada",
-    "creditos": 3,  
+    "id": 27,
+    "nombre": "Seguridad Informática",
+    "profesor": "Paula Restrepo",
+    "dia": "Martes",
+    "inicio": "09:00 AM",
+    "fin": "11:00 AM",
+    "estado": "Disponible",
+    "creditos": 3,
     "semestre": 6
-
   },
   {
-    "id": 4,
-    "nombre": "Inglés II",
-    "profesor": "Diana Torres",
-    "inicio": "03:00 PM",
-    "fin": "05:00 PM",
+    "id": 28,
+    "nombre": "Desarrollo de Aplicaciones Móviles",
+    "profesor": "Miguel Ángel Pérez",
+    "dia": "Miércoles",
+    "inicio": "01:00 PM",
+    "fin": "03:00 PM",
+    "estado": "Disponible",
+    "creditos": 3,
+    "semestre": 6
+  },
+  {
+    "id": 29,
+    "nombre": "Inteligencia Artificial",
+    "profesor": "Verónica Díaz",
+    "dia": "Jueves",
+    "inicio": "10:00 AM",
+    "fin": "12:00 PM",
+    "estado": "Disponible",
+    "creditos": 4,
+    "semestre": 6
+  },
+  {
+    "id": 30,
+    "nombre": "Proyecto Integrador I",
+    "profesor": "Julián Herrera",
+    "dia": "Viernes",
+    "inicio": "08:00 AM",
+    "fin": "10:00 AM",
     "estado": "Disponible",
     "creditos": 2,
     "semestre": 6
+  },
+
+  {
+    "id": 31,
+    "nombre": "Arquitectura de Software",
+    "profesor": "Andrea Sánchez",
+    "dia": "Lunes",
+    "inicio": "09:00 AM",
+    "fin": "11:00 AM",
+    "estado": "Disponible",
+    "creditos": 3,
+    "semestre": 7
+  },
+  {
+    "id": 32,
+    "nombre": "Computación en la Nube",
+    "profesor": "Juan Diego Morales",
+    "dia": "Martes",
+    "inicio": "07:00 AM",
+    "fin": "09:00 AM",
+    "estado": "Disponible",
+    "creditos": 3,
+    "semestre": 7
+  },
+  {
+    "id": 33,
+    "nombre": "Auditoría de Sistemas",
+    "profesor": "Liliana Gómez",
+    "dia": "Miércoles",
+    "inicio": "10:00 AM",
+    "fin": "12:00 PM",
+    "estado": "Disponible",
+    "creditos": 3,
+    "semestre": 7
+  },
+  {
+    "id": 34,
+    "nombre": "Minería de Datos",
+    "profesor": "Óscar Ruiz",
+    "dia": "Jueves",
+    "inicio": "01:00 PM",
+    "fin": "03:00 PM",
+    "estado": "Disponible",
+    "creditos": 4,
+    "semestre": 7
+  },
+  {
+    "id": 35,
+    "nombre": "Proyecto Integrador II",
+    "profesor": "María Fernanda León",
+    "dia": "Viernes",
+    "inicio": "09:00 AM",
+    "fin": "11:00 AM",
+    "estado": "Disponible",
+    "creditos": 2,
+    "semestre": 7
+  },
+
+  {
+    "id": 36,
+    "nombre": "Trabajo de Grado I",
+    "profesor": "Sebastián Rojas",
+    "dia": "Lunes",
+    "inicio": "01:00 PM",
+    "fin": "03:00 PM",
+    "estado": "Disponible",
+    "creditos": 3,
+    "semestre": 8
+  },
+  {
+    "id": 37,
+    "nombre": "Gerencia de Proyectos",
+    "profesor": "Patricia Herrera",
+    "dia": "Martes",
+    "inicio": "08:00 AM",
+    "fin": "10:00 AM",
+    "estado": "Disponible",
+    "creditos": 3,
+    "semestre": 8
+  },
+  {
+    "id": 38,
+    "nombre": "Emprendimiento Tecnológico",
+    "profesor": "Natalia Vargas",
+    "dia": "Miércoles",
+    "inicio": "07:00 AM",
+    "fin": "09:00 AM",
+    "estado": "Disponible",
+    "creditos": 2,
+    "semestre": 8
+  },
+  {
+    "id": 39,
+    "nombre": "Ética y Legislación Informática",
+    "profesor": "Diana Cárdenas",
+    "dia": "Jueves",
+    "inicio": "10:00 AM",
+    "fin": "12:00 PM",
+    "estado": "Disponible",
+    "creditos": 2,
+    "semestre": 8
+  },
+  {
+    "id": 40,
+    "nombre": "Práctica Profesional",
+    "profesor": "Roberto Silva",
+    "dia": "Viernes",
+    "inicio": "02:00 PM",
+    "fin": "06:00 PM",
+    "estado": "Disponible",
+    "creditos": 4,
+    "semestre": 8
   }
 ]
