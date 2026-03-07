@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selección de Asignaturas</title>
+    <link rel="stylesheet" href="../style.css">
+    <link type="text/css" href="../Styles/sign.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class="topbar">
+        <div class="topbar-logo">
+            <img src="../Images/Header.png" alt="Header">
+        </div>
+    </header>
+
+    <main class="content-page">
+        <section class="card-panel">
+            <h2>Selección de asignaturas</h2>
+            <p>Seleccione las asignaturas que desea matricular.</p>
+
+            <table class="subjects-table">
+                <thead>
+                    <tr>
+                        <th>Seleccionar</th>
+                        <th>Asignatura</th>
+                        <th>Profesor</th>
+                        <th>Inicio</th>
+                        <th>Fin</th>
+                        <th>Estado</th>
+                        <th>Créditos</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaAsignaturas">
+                </tbody>
+            </table>
+
+            <div class="summary-box">
+                <p><strong>Total de créditos:</strong> <span id="totalCreditos">0</span></p>
+            </div>
+
+            <div class="button-row">
+                <button type="button" id="btnContinuar">Continuar a pago financiero</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="seleccion.js"></script>
+</body>
+</html>

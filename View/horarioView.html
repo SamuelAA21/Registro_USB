@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario Generado</title>
+    <link rel="stylesheet" href="../style.css">
+    <link type="text/css" href="../Styles/sign.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class="topbar">
+        <div class="topbar-logo">
+            <img src="../Images/Header.png" alt="Header">
+        </div>
+    </header>
+
+    <main class="content-page">
+        <section class="card-panel">
+            <h2>Horario de clases generado</h2>
+            <p>Este es el horario final después del pago financiero.</p>
+
+            <table class="subjects-table">
+                <thead>
+                    <tr>
+                        <th>Asignatura</th>
+                        <th>Profesor</th>
+                        <th>Día</th>
+                        <th>Hora inicio</th>
+                        <th>Hora fin</th>
+                        <th>Créditos</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaHorario">
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="horario.js"></script>
+</body>
+</html>

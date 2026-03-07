@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nombre": "Programación I",
+    "profesor": "Carlos Ramírez",
+    "inicio": "07:00 AM",
+    "fin": "09:00 AM",
+    "estado": "Disponible",
+    "creditos": 3,
+    "semestre": 6
+    
+  },
+  {
+    "id": 2,
+    "nombre": "Matemáticas Discretas",
+    "profesor": "Laura Gómez",
+    "inicio": "09:00 AM",
+    "fin": "11:00 AM",
+    "estado": "Disponible",
+    "creditos": 4,
+    "semestre": 6
+  },
+  {
+    "id": 3,
+    "nombre": "Bases de Datos",
+    "profesor": "Andrés Pérez",
+    "inicio": "01:00 PM",
+    "fin": "03:00 PM",
+    "estado": "Cerrada",
+    "creditos": 3,  
+    "semestre": 6
+
+  },
+  {
+    "id": 4,
+    "nombre": "Inglés II",
+    "profesor": "Diana Torres",
+    "inicio": "03:00 PM",
+    "fin": "05:00 PM",
+    "estado": "Disponible",
+    "creditos": 2,
+    "semestre": 6
+  }
+]

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="es">
+<head>
+    <title>Conexión Oracle PeopleSoft</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    
+    <link type="text/css" href="../Styles/sign.css" rel="stylesheet">
+</head>
+<body>
+    <div id="pswrapper">
+        <form id="login" name="login" method="post" autocomplete="off">
+            <div class="signonMain">
+
+                <img
+                    src="../Images/Header.png"
+                    class="ps-staticimg"
+                    alt="Conexión Oracle PeopleSoft"
+                    title="Conexión Oracle PeopleSoft"
+                    width="900"
+                    height="200"
+                >
+
+                <div class="ps_signinentry">
+
+                    <div class="ps_text_header" id="signInText" role="heading" aria-level="1">
+                        Conectar
+                    </div>
+
+                    <div>
+                        <span class="ps_hide" id="ptLabelUserid">
+                            <label for="userid">ID Usuario</label>
+                        </span>
+                    </div>
+
+                    <div class="ps_box-control">
+                        <input
+                            type="text"
+                            id="userid"
+                            name="userid"
+                            style="text-transform:uppercase;"
+                            placeholder="ID Usuario"
+                            value=""
+                            title="ID Usuario"
+                        >
+                    </div>
+
+                    <div>
+                        <span class="ps_hide" id="ptLabelPassword">
+                            <label for="pwd">Contraseña</label>
+                        </span>
+                    </div>
+
+                    <div class="ps_box-control">
+                        <input
+                            type="password"
+                            id="pwd"
+                            name="pwd"
+                            placeholder="Contraseña"
+                            value=""
+                            title="Contraseña"
+                        >
+                    </div>
+
+                    <div id="ps_select_parent">
+                        <div id="ps_select_box" class="ps_box-control">
+                            <select
+                                id="ptlangsel"
+                                name="ptlangsel"
+                                title="Seleccione un idioma"
+                                class="ps_select"
+                            >
+                                <option value="ESP" title="Español">Español</option>
+                                <option value="ENG" title="Inglés">English</option>
+                            </select>
+                        </div>
+
+                        <div id="ps_select_arrow" class="selectArrowOldIE" style="display:none">
+                            <img src="/USCS90PR/images/Arrow_24x24px.png" alt="" title="">
+                        </div>
+                    </div>
+
+                    <div class="ps_box-button">
+                        <span title="Conectar">
+                            <input
+                                name="Submit"
+                                type="button"
+                                class="ps-button"
+                                value="Conectar"
+                            >
+                        </span>
+                    </div>
+
+                    <div class="ps_box-button">
+                        <input type="checkbox" name="accessible" id="accessible">
+                        <label for="accessible">Activar Modo Lector Pantalla</label>
+                    </div>
+
+                </div>
+
+                <div class="ps_box-link">
+                    <span class="ps-link"></span>
+                </div>
+
+                <div>
+                    <a href="#">Olvido su contraseña?</a>
+                </div>
+
+                <footer id="ptfooter" class="ps_footer_text">
+                    Copyright © 2000, 2019, Oracle y/o sus filiales. Todos los derechos reservados.
+                </footer>
+
+            </div>
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

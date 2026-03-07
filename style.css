@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+}
+
+.topbar {
+    height: 56px;
+    background: #4a4747;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+}
+
+.topbar-logo img {
+    height: 38px;
+    object-fit: contain;
+}
+
+.layout-container {
+    padding: 0;
+}
+
+.menu-panel {
+    width: 475px;
+    background: #ffffff;
+    border: 1px solid #cfcfcf;
+    margin-top: 30px;
+    min-height: 395px;
+}
+
+.menu-header {
+    height: 32px;
+    background: #ece8dc;
+    border-bottom: 1px solid #cfcfcf;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px;
+}
+
+.menu-title {
+    color: #8b5a2b;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.menu-actions {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.icon-button {
+    border: 1px solid #c7c7c7;
+    background: #f8f8f8;
+    width: 22px;
+    height: 22px;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.menu-search {
+    padding: 10px 10px 4px 10px;
+}
+
+.menu-search label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+    color: #222;
+}
+
+.search-row {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.search-row input {
+    width: 155px;
+    height: 22px;
+    border: 1px solid #bfbfbf;
+    padding: 2px 4px;
+}
+
+.search-button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #8a8a8a;
+    background: #f2f2f2;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.menu-list {
+    list-style: none;
+    margin: 8px 0 0 0;
+    padding: 0 0 0 6px;
+}
+
+.menu-list li {
+    margin: 6px 0;
+    font-size: 14px;
+}
+
+.menu-list li::before {
+    content: "› ";
+    color: #7a7a7a;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: #35597b;
+}
+
+.menu-list a:hover {
+    text-decoration: underline;
+}

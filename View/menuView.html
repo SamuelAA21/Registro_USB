@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Principal</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <header class="topbar">
+        <div class="topbar-logo">
+            <img src="../Images/Header.png">
+        </div>
+    </header>
+
+    <main class="layout-container">
+        <section class="menu-panel">
+            <div class="menu-header">
+                <span class="menu-title">Menú</span>
+
+                <div class="menu-actions">
+                    <button type="button" class="icon-button">⟳</button>
+                    <button type="button" class="icon-button">◉</button>
+                    <button type="button" class="icon-button">▾</button>
+                </div>
+            </div>
+
+            <div class="menu-search">
+                <label for="searchMenu">Buscar:</label>
+
+                <div class="search-row">
+                    <input type="text" id="searchMenu" name="searchMenu">
+                    <button type="button" class="search-button">»</button>
+                </div>
+            </div>
+
+            <ul class="menu-list">
+                <li><a href="#">Mis Favoritos</a></li>
+                <li>
+                    <span class="menu-toggle" onclick="toggleMenu()">Autoservicio</span>
+
+                    <ul id="submenu-autoservicio" style="display:none; list-style:none; padding-left:20px;">
+
+                        <li>
+                            <span class="menu-toggle" onclick="toggleInscripciones()">Inscripciones</span>
+
+                            <ul id="submenu-inscripciones" style="display:none; list-style:none; padding-left:20px;">
+                                <li>
+                                    <a href="seleccionarView.html">Cita de inscripción</a>
+                                </li>
+                            </ul>
+
+                        </li>
+
+                    </ul>
+                </li>
+                <li><a href="#">Supervisión de Personal</a></li>
+                <li><a href="#">Comunidad del Campus</a></li>
+                <li><a href="#">Selección de Alumnos</a></li>
+                <li><a href="#">Definición de HRMS</a></li>
+                <li><a href="#">Definición de SACR</a></li>
+                <li><a href="#">Listas de Trabajos</a></li>
+                <li><a href="#">Gestor de Árboles</a></li>
+                <li><a href="#">Herramientas de Informes</a></li>
+                <li><a href="#">PeopleTools</a></li>
+                <li><a href="#">Cambio de Contraseña</a></li>
+                <li><a href="#">Mis Personalizaciones</a></li>
+                <li><a href="#">Mi Perfil de Sistema</a></li>
+                <li><a href="#">Mi Diccionario</a></li>
+            </ul>
+        </section>
+    </main>
+<script>
+
+function toggleMenu() {
+
+    const menu = document.getElementById("submenu-autoservicio");
+
+    if(menu.style.display === "none"){
+        menu.style.display = "block";
+    } else {
+        menu.style.display = "none";
+    }
+
+}
+
+function toggleInscripciones() {
+
+    const menu = document.getElementById("submenu-inscripciones");
+
+    if(menu.style.display === "none"){
+        menu.style.display = "block";
+    } else {
+        menu.style.display = "none";
+    }
+
+}
+
+</script>
+</body>
+
+</html>
