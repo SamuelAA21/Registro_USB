@@ -4,7 +4,7 @@
     "contrasena": "SAMUEL_HERRERA",
     "materias": 3,
     "matriculado": true,
-    "creditos": 230,
+    "creditos": 15,
     "semestre": 6
   },
   {
@@ -12,7 +12,7 @@
     "contrasena": "MARIA123",
     "materias": 4,
     "matriculado": false,
-    "creditos": 180,
+    "creditos": 15,
     "semestre": 3
   },
   {
@@ -20,7 +20,7 @@
     "contrasena": "JUAN123",
     "materias": 5,
     "matriculado": true,
-    "creditos": 210,
+    "creditos": 15,
     "semestre": 1
   },
   {
@@ -28,7 +28,7 @@
     "contrasena": "LAURA123",
     "materias": 4,
     "matriculado": true,
-    "creditos": 195,
+    "creditos": 15,
     "semestre": 2
   },
   {
@@ -36,7 +36,7 @@
     "contrasena": "ANDRES123",
     "materias": 6,
     "matriculado": false,
-    "creditos": 240,
+    "creditos": 15,
     "semestre": 4
   },
   {
@@ -44,7 +44,7 @@
     "contrasena": "SOFIA123",
     "materias": 5,
     "matriculado": true,
-    "creditos": 220,
+    "creditos": 15,
     "semestre": 5
   },
   {
@@ -52,7 +52,7 @@
     "contrasena": "DANIEL123",
     "materias": 4,
     "matriculado": false,
-    "creditos": 175,
+    "creditos": 15,
     "semestre": 7
   },
   {
@@ -60,7 +60,7 @@
     "contrasena": "VALEN123",
     "materias": 5,
     "matriculado": true,
-    "creditos": 260,
+    "creditos": 15,
     "semestre": 8
   },
   {
@@ -68,7 +68,7 @@
     "contrasena": "CAMILO123",
     "materias": 3,
     "matriculado": false,
-    "creditos": 160,
+    "creditos": 15,
     "semestre": 2
   },
   {
@@ -76,7 +76,7 @@
     "contrasena": "ISABEL123",
     "materias": 6,
     "matriculado": true,
-    "creditos": 245,
+    "creditos": 15,
     "semestre": 6
   },
   {
@@ -84,7 +84,7 @@
     "contrasena": "NICO123",
     "materias": 4,
     "matriculado": true,
-    "creditos": 200,
+    "creditos": 15,
     "semestre": 1
   },
   {
@@ -92,7 +92,7 @@
     "contrasena": "PAULA123",
     "materias": 5,
     "matriculado": false,
-    "creditos": 215,
+    "creditos": 15,
     "semestre": 4
   }
 ]
