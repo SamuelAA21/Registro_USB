@@ -10,7 +10,7 @@
   {
     "usuario": "JUAN_PEREZ",
     "contrasena": "JUAN123",
-    "materias": 5,
+    "materias": 3,
     "matriculado": true,
     "creditos": 15,
     "semestre": 1
