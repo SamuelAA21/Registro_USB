@@ -4,7 +4,7 @@ botonLogin.addEventListener("click", function () {
     const usuario = document.getElementById("userid").value.trim();
     const contrasena = document.getElementById("pwd").value.trim();
 
-    fetch("../usuario.json")
+    fetch("../usuario.JSON")
         .then(respuesta => respuesta.json())
         .then(usuarios => {
             const existe = usuarios.find(u => u.usuario === usuario && u.contrasena === contrasena);
